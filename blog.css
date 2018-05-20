@@ -41,9 +41,9 @@ header{
 }
 
 .header-right{
-	position:absolute;
-	top:30px;
-	left:850px;
+	float:right;
+	margin-top:30px;
+	margin-right:10px;
 }
 
 .header-right li{
