@@ -1,0 +1,111 @@
+
+/* 共通部分 */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.body{
+	margin:0px 0px;
+	
+}
+
+.container{
+	width: 100%;
+    
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+/*　以上、共通部分　*/
+
+/* header */
+header{
+	background-color:#eeeeee;
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index:10;
+}
+
+.header-left{
+	float:left;
+	font-family:'Bookman Old Style';
+	margin:30px 30px;
+}
+
+.header-right{
+	position:absolute;
+	top:30px;
+	left:850px;
+}
+
+.header-right li{
+	display:inline-block;
+	padding:5px 10px;
+}
+
+.li-archi a{
+	color:#336633;
+}
+
+header a:hover{
+	color:#808080;
+}
+
+
+
+/* 以上、header  */
+
+
+/* ここからfilmography */
+.now{
+	position:absolute;
+	top: 350px;
+	left:100px;
+}
+/* ここまでfilmography */
+
+
+
+
+/* ここからfooter  */
+
+
+footer{
+	position:absolute;
+	bottom:0px;
+	height:70px;
+	width:100%;
+	background-color:#eeeeee;
+}
+
+footer h3{
+    margin-top:20px;
+    margin-left:30px;
+    float:left;
+}
+
+footer a{
+	position:absolute;
+	left:1000px;
+	float:right;
+	margin-top:20px;
+    margin-left:20px;
+    text-decoration:none;
+    color:black;
+}
+
+footer a:hover{
+	color:#808080;
+}
+
+/* ここまでfooter  */
